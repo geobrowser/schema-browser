@@ -221,7 +221,7 @@
       }
     ],
     "schema": "export class Country extends Entity.Class<Country>('Country')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedTopics: Type.Relation(Topic),\n  states: Type.Relation(State),\n  tags: Type.Relation(Tag)\n}) {}",
-    "mapping": "  Country: {\n    typeIds: [Id.Id('42a0a761-8c82-459f-ad08-34bfeb437cde')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    states: Id.Id('0f1f1f2b-2383-4056-8a3a-b223be09506e'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n    },\n  }"
+    "mapping": "Country: {\n  typeIds: [Id.Id('42a0a761-8c82-459f-ad08-34bfeb437cde')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    states: Id.Id('0f1f1f2b-2383-4056-8a3a-b223be09506e'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n  },\n}"
   },
   {
     "id": "2c765cae-c1b6-4cc3-a65d-693d0a67eaeb",
@@ -248,7 +248,7 @@
       }
     ],
     "schema": "export class Interest extends Entity.Class<Interest>('Interest')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Interest: {\n    typeIds: [Id.Id('2c765cae-c1b6-4cc3-a65d-693d0a67eaeb')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Interest: {\n  typeIds: [Id.Id('2c765cae-c1b6-4cc3-a65d-693d0a67eaeb')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "5338cc28-9704-4e96-b547-7dfc58da6fc7",
@@ -284,7 +284,7 @@
       }
     ],
     "schema": "export class RenderableType extends Entity.Class<RenderableType>('RenderableType')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  RenderableType: {\n    typeIds: [Id.Id('5338cc28-9704-4e96-b547-7dfc58da6fc7')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "RenderableType: {\n  typeIds: [Id.Id('5338cc28-9704-4e96-b547-7dfc58da6fc7')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "06053fcf-6443-4dc6-80ca-8a3b173a6016",
@@ -311,7 +311,7 @@
       }
     ],
     "schema": "export class Root extends Entity.Class<Root>('Root')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Root: {\n    typeIds: [Id.Id('06053fcf-6443-4dc6-80ca-8a3b173a6016')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Root: {\n  typeIds: [Id.Id('06053fcf-6443-4dc6-80ca-8a3b173a6016')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "9ca6ab1f-3a11-4e49-bbaf-72e0c9a985cf",
@@ -599,7 +599,7 @@
       }
     ],
     "schema": "export class Skill extends Entity.Class<Skill>('Skill')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedSpaces: Type.Relation(Space),\n  relatedTopics: Type.Relation(Topic),\n  roles: Type.Relation(Role),\n  tags: Type.Relation(Tag)\n}) {}",
-    "mapping": "  Skill: {\n    typeIds: [Id.Id('9ca6ab1f-3a11-4e49-bbaf-72e0c9a985cf')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n    },\n  }"
+    "mapping": "Skill: {\n  typeIds: [Id.Id('9ca6ab1f-3a11-4e49-bbaf-72e0c9a985cf')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n  },\n}"
   },
   {
     "id": "37d2167f-b64a-4b68-be26-55b3608050e7",
@@ -626,7 +626,7 @@
       }
     ],
     "schema": "export class AcademicField extends Entity.Class<AcademicField>('AcademicField')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  AcademicField: {\n    typeIds: [Id.Id('37d2167f-b64a-4b68-be26-55b3608050e7')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "AcademicField: {\n  typeIds: [Id.Id('37d2167f-b64a-4b68-be26-55b3608050e7')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "7ed45f2b-c48b-419e-8e46-64d5ff680b0d",
@@ -996,7 +996,7 @@
       }
     ],
     "schema": "export class Person extends Entity.Class<Person>('Person')({\n  name: Type.Text,\n  description: Type.Text,\n  worksAt: Type.Relation(Project),\n  roles: Type.Relation(Role),\n  relatedSpaces: Type.Relation(Space),\n  workedAt: Type.Relation(Project),\n  x: Type.Text,\n  skills: Type.Relation(Skill)\n}) {}",
-    "mapping": "  Person: {\n    typeIds: [Id.Id('7ed45f2b-c48b-419e-8e46-64d5ff680b0d')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    x: Id.Id('0d625978-4b3c-4b57-a86f-de45c997c73c')\n    },\n    relations: {\n    worksAt: Id.Id('dac6e89e-76be-4f77-88e1-0f556ceb6869'),\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    workedAt: Id.Id('3e1f6873-f4e8-480d-a4ce-447092a684fa'),\n    skills: Id.Id('a38732e3-3a3d-47f9-a459-fb369c287709')\n    },\n  }"
+    "mapping": "Person: {\n  typeIds: [Id.Id('7ed45f2b-c48b-419e-8e46-64d5ff680b0d')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    x: Id.Id('0d625978-4b3c-4b57-a86f-de45c997c73c')\n  },\n  relations: {\n    worksAt: Id.Id('dac6e89e-76be-4f77-88e1-0f556ceb6869'),\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    workedAt: Id.Id('3e1f6873-f4e8-480d-a4ce-447092a684fa'),\n    skills: Id.Id('a38732e3-3a3d-47f9-a459-fb369c287709')\n  },\n}"
   },
   {
     "id": "167664f6-68f8-40e1-976b-20bd16ed8d47",
@@ -1023,7 +1023,7 @@
       }
     ],
     "schema": "export class Date&Time extends Entity.Class<Date&Time>('Date&Time')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Date&Time: {\n    typeIds: [Id.Id('167664f6-68f8-40e1-976b-20bd16ed8d47')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Date&Time: {\n  typeIds: [Id.Id('167664f6-68f8-40e1-976b-20bd16ed8d47')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "531ac4c5-e409-46ad-9dd3-abcd2db955a0",
@@ -1412,7 +1412,7 @@
       }
     ],
     "schema": "export class Publisher extends Entity.Class<Publisher>('Publisher')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedTopics: Type.Relation(Topic),\n  location: Type.Text,\n  tags: Type.Relation(Tag),\n  relatedPeople: Type.Relation(Person),\n  relatedProjects: Type.Relation(Project),\n  x: Type.Text,\n  website: Type.Text\n}) {}",
-    "mapping": "  Publisher: {\n    typeIds: [Id.Id('531ac4c5-e409-46ad-9dd3-abcd2db955a0')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0'),\n    x: Id.Id('0d625978-4b3c-4b57-a86f-de45c997c73c'),\n    website: Id.Id('eed38e74-e679-46bf-8a42-ea3e4f8fb5fb')\n    },\n    relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427')\n    },\n  }"
+    "mapping": "Publisher: {\n  typeIds: [Id.Id('531ac4c5-e409-46ad-9dd3-abcd2db955a0')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0'),\n    x: Id.Id('0d625978-4b3c-4b57-a86f-de45c997c73c'),\n    website: Id.Id('eed38e74-e679-46bf-8a42-ea3e4f8fb5fb')\n  },\n  relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427')\n  },\n}"
   },
   {
     "id": "8275c359-4662-40fb-9aec-27177b520cd2",
@@ -1472,7 +1472,7 @@
       }
     ],
     "schema": "export class Activity extends Entity.Class<Activity>('Activity')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedSpaces: Type.Relation(Space)\n}) {}",
-    "mapping": "  Activity: {\n    typeIds: [Id.Id('8275c359-4662-40fb-9aec-27177b520cd2')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n    },\n  }"
+    "mapping": "Activity: {\n  typeIds: [Id.Id('8275c359-4662-40fb-9aec-27177b520cd2')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n  },\n}"
   },
   {
     "id": "20a21dc2-7371-482f-a120-7b147f1dc319",
@@ -1499,7 +1499,7 @@
       }
     ],
     "schema": "export class View extends Entity.Class<View>('View')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  View: {\n    typeIds: [Id.Id('20a21dc2-7371-482f-a120-7b147f1dc319')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "View: {\n  typeIds: [Id.Id('20a21dc2-7371-482f-a120-7b147f1dc319')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "c38c4198-10c2-4cf2-9dd5-8f194033fc31",
@@ -1705,7 +1705,7 @@
       }
     ],
     "schema": "export class Protocol extends Entity.Class<Protocol>('Protocol')({\n  name: Type.Text,\n  description: Type.Text,\n  roles: Type.Relation(Role),\n  coreDevs: Type.Relation(Project),\n  nativeAssets: Type.Relation(Asset)\n}) {}",
-    "mapping": "  Protocol: {\n    typeIds: [Id.Id('c38c4198-10c2-4cf2-9dd5-8f194033fc31')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b'),\n    coreDevs: Id.Id('617fd8a6-9215-468a-9868-7d9976bf3d85'),\n    nativeAssets: Id.Id('77f55135-eb75-4f53-8d79-b36913494313')\n    },\n  }"
+    "mapping": "Protocol: {\n  typeIds: [Id.Id('c38c4198-10c2-4cf2-9dd5-8f194033fc31')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b'),\n    coreDevs: Id.Id('617fd8a6-9215-468a-9868-7d9976bf3d85'),\n    nativeAssets: Id.Id('77f55135-eb75-4f53-8d79-b36913494313')\n  },\n}"
   },
   {
     "id": "e550fe51-7e90-4b2c-8fff-df13408f5634",
@@ -2270,7 +2270,7 @@
       }
     ],
     "schema": "export class NewsStory extends Entity.Class<NewsStory>('NewsStory')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedProjects: Type.Relation(Project),\n  disclaimer: Type.Text,\n  maintainers: Type.Relation(Person),\n  relatedPeople: Type.Relation(Person),\n  tags: Type.Relation(Tag),\n  relatedTopics: Type.Relation(Topic),\n  publishDate: Type.Date,\n  location: Type.Text,\n  relatedSpaces: Type.Relation(Space)\n}) {}",
-    "mapping": "  NewsStory: {\n    typeIds: [Id.Id('e550fe51-7e90-4b2c-8fff-df13408f5634')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    disclaimer: Id.Id('2877c1c3-d2ad-493f-abe7-6e1bb16e1c37'),\n    publishDate: Id.Id('94e43fe8-faf2-4100-9eb8-87ab4f999723'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0')\n    },\n    relations: {\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    maintainers: Id.Id('e9fa6d66-d839-4045-88bb-5f7d7c675ce6'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n    },\n  }"
+    "mapping": "NewsStory: {\n  typeIds: [Id.Id('e550fe51-7e90-4b2c-8fff-df13408f5634')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    disclaimer: Id.Id('2877c1c3-d2ad-493f-abe7-6e1bb16e1c37'),\n    publishDate: Id.Id('94e43fe8-faf2-4100-9eb8-87ab4f999723'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0')\n  },\n  relations: {\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    maintainers: Id.Id('e9fa6d66-d839-4045-88bb-5f7d7c675ce6'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n  },\n}"
   },
   {
     "id": "b8803a86-65de-412b-bb35-7e0c84adf473",
@@ -2297,7 +2297,7 @@
       }
     ],
     "schema": "export class DataBlock extends Entity.Class<DataBlock>('DataBlock')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  DataBlock: {\n    typeIds: [Id.Id('b8803a86-65de-412b-bb35-7e0c84adf473')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "DataBlock: {\n  typeIds: [Id.Id('b8803a86-65de-412b-bb35-7e0c84adf473')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "302ab815-c11f-4357-8e6c-71990a30c992",
@@ -2630,7 +2630,7 @@
       }
     ],
     "schema": "export class ImprovementProposal extends Entity.Class<ImprovementProposal>('ImprovementProposal')({\n  description: Type.Text,\n  relatedTopics: Type.Relation(Topic),\n  discussionLink: Type.Text,\n  publishDate: Type.Date,\n  tags: Type.Relation(Tag),\n  status: Type.Relation(Status),\n  name: Type.Text,\n  webUrl: Type.Text,\n  relatedProjects: Type.Relation(Project),\n  abstract: Type.Text\n}) {}",
-    "mapping": "  ImprovementProposal: {\n    typeIds: [Id.Id('302ab815-c11f-4357-8e6c-71990a30c992')],\n    properties: {\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    discussionLink: Id.Id('355acff4-251d-4b94-8894-0db0364f285b'),\n    publishDate: Id.Id('94e43fe8-faf2-4100-9eb8-87ab4f999723'),\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    webUrl: Id.Id('412ff593-e915-4012-a43d-4c27ec5c68b6'),\n    abstract: Id.Id('40fa9ceb-889b-4f77-bf6e-f530c02b2556')\n    },\n    relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    status: Id.Id('f54a8163-2f4c-44a8-a6a5-d7b97ec0370e'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427')\n    },\n  }"
+    "mapping": "ImprovementProposal: {\n  typeIds: [Id.Id('302ab815-c11f-4357-8e6c-71990a30c992')],\n  properties: {\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    discussionLink: Id.Id('355acff4-251d-4b94-8894-0db0364f285b'),\n    publishDate: Id.Id('94e43fe8-faf2-4100-9eb8-87ab4f999723'),\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    webUrl: Id.Id('412ff593-e915-4012-a43d-4c27ec5c68b6'),\n    abstract: Id.Id('40fa9ceb-889b-4f77-bf6e-f530c02b2556')\n  },\n  relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    status: Id.Id('f54a8163-2f4c-44a8-a6a5-d7b97ec0370e'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427')\n  },\n}"
   },
   {
     "id": "cb69723f-7456-471a-a8ad-3e93ddc3edfe",
@@ -2675,7 +2675,7 @@
       }
     ],
     "schema": "export class Account extends Entity.Class<Account>('Account')({\n  name: Type.Text,\n  description: Type.Text,\n  address: Type.Text\n}) {}",
-    "mapping": "  Account: {\n    typeIds: [Id.Id('cb69723f-7456-471a-a8ad-3e93ddc3edfe')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    address: Id.Id('85cebdf1-d84f-4afd-993b-35f182096b59')\n    },\n\n  }"
+    "mapping": "Account: {\n  typeIds: [Id.Id('cb69723f-7456-471a-a8ad-3e93ddc3edfe')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    address: Id.Id('85cebdf1-d84f-4afd-993b-35f182096b59')\n  },\n\n}"
   },
   {
     "id": "96f859ef-a1ca-4b22-9372-c86ad58b694b",
@@ -3097,7 +3097,7 @@
       }
     ],
     "schema": "export class Claim extends Entity.Class<Claim>('Claim')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedPeople: Type.Relation(Person),\n  tags: Type.Relation(Tag),\n  relatedProjects: Type.Relation(Project),\n  location: Type.Text,\n  relatedTopics: Type.Relation(Topic),\n  relatedSpaces: Type.Relation(Space)\n}) {}",
-    "mapping": "  Claim: {\n    typeIds: [Id.Id('96f859ef-a1ca-4b22-9372-c86ad58b694b')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0')\n    },\n    relations: {\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n    },\n  }"
+    "mapping": "Claim: {\n  typeIds: [Id.Id('96f859ef-a1ca-4b22-9372-c86ad58b694b')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0')\n  },\n  relations: {\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n  },\n}"
   },
   {
     "id": "4b6d9fc1-fbfe-474c-861c-83398e1b50d9",
@@ -3189,7 +3189,7 @@
       }
     ],
     "schema": "export class Relation extends Entity.Class<Relation>('Relation')({\n  name: Type.Text,\n  description: Type.Text,\n  relationValueTypes: Type.Relation(Type)\n}) {}",
-    "mapping": "  Relation: {\n    typeIds: [Id.Id('4b6d9fc1-fbfe-474c-861c-83398e1b50d9')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    relationValueTypes: Id.Id('9eea393f-17dd-4971-a62e-a603e8bfec20')\n    },\n  }"
+    "mapping": "Relation: {\n  typeIds: [Id.Id('4b6d9fc1-fbfe-474c-861c-83398e1b50d9')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relationValueTypes: Id.Id('9eea393f-17dd-4971-a62e-a603e8bfec20')\n  },\n}"
   },
   {
     "id": "783bc688-e65f-4e54-b67f-a5643d78345e",
@@ -3307,7 +3307,7 @@
       }
     ],
     "schema": "export class Place extends Entity.Class<Place>('Place')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedSpaces: Type.Relation(Space),\n  regions: Type.Relation(Region)\n}) {}",
-    "mapping": "  Place: {\n    typeIds: [Id.Id('783bc688-e65f-4e54-b67f-a5643d78345e')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    regions: Id.Id('83dd3291-2593-4cde-a510-2ddb71d688db')\n    },\n  }"
+    "mapping": "Place: {\n  typeIds: [Id.Id('783bc688-e65f-4e54-b67f-a5643d78345e')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    regions: Id.Id('83dd3291-2593-4cde-a510-2ddb71d688db')\n  },\n}"
   },
   {
     "id": "603d1fe4-306a-4c6f-a0c3-d53dbf891352",
@@ -3480,7 +3480,7 @@
       }
     ],
     "schema": "export class PublicFigure extends Entity.Class<PublicFigure>('PublicFigure')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedTopics: Type.Relation(Topic),\n  tags: Type.Relation(Tag)\n}) {}",
-    "mapping": "  PublicFigure: {\n    typeIds: [Id.Id('603d1fe4-306a-4c6f-a0c3-d53dbf891352')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n    },\n  }"
+    "mapping": "PublicFigure: {\n  typeIds: [Id.Id('603d1fe4-306a-4c6f-a0c3-d53dbf891352')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n  },\n}"
   },
   {
     "id": "808a04ce-b21c-4d88-8ad1-2e240613e5ca",
@@ -3549,7 +3549,7 @@
       }
     ],
     "schema": "export class Property extends Entity.Class<Property>('Property')({\n  name: Type.Text,\n  description: Type.Text,\n  valueType: Type.Relation(NativeType),\n  isTypeProperty: Type.Checkbox\n}) {}",
-    "mapping": "  Property: {\n    typeIds: [Id.Id('808a04ce-b21c-4d88-8ad1-2e240613e5ca')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    isTypeProperty: Id.Id('d2c1a101-14e3-464a-8272-f4e75b0f1407')\n    },\n    relations: {\n    valueType: Id.Id('ee26ef23-f7f1-4eb6-b742-3b0fa38c1fd8')\n    },\n  }"
+    "mapping": "Property: {\n  typeIds: [Id.Id('808a04ce-b21c-4d88-8ad1-2e240613e5ca')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    isTypeProperty: Id.Id('d2c1a101-14e3-464a-8272-f4e75b0f1407')\n  },\n  relations: {\n    valueType: Id.Id('ee26ef23-f7f1-4eb6-b742-3b0fa38c1fd8')\n  },\n}"
   },
   {
     "id": "f8780a80-c238-4a2a-96cb-567d88b1aa63",
@@ -3576,7 +3576,7 @@
       }
     ],
     "schema": "export class Asset extends Entity.Class<Asset>('Asset')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Asset: {\n    typeIds: [Id.Id('f8780a80-c238-4a2a-96cb-567d88b1aa63')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Asset: {\n  typeIds: [Id.Id('f8780a80-c238-4a2a-96cb-567d88b1aa63')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "f503bfd2-83d7-4e1a-9b30-294fff9d2d7e",
@@ -3603,7 +3603,7 @@
       }
     ],
     "schema": "export class EmploymentType extends Entity.Class<EmploymentType>('EmploymentType')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  EmploymentType: {\n    typeIds: [Id.Id('f503bfd2-83d7-4e1a-9b30-294fff9d2d7e')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "EmploymentType: {\n  typeIds: [Id.Id('f503bfd2-83d7-4e1a-9b30-294fff9d2d7e')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "dac6e89e-76be-4f77-88e1-0f556ceb6869",
@@ -3721,7 +3721,7 @@
       }
     ],
     "schema": "export class WorksAt extends Entity.Class<WorksAt>('WorksAt')({\n  name: Type.Text,\n  description: Type.Text,\n  endTime: Type.Date,\n  startTime: Type.Date,\n  roles: Type.Relation(Role)\n}) {}",
-    "mapping": "  WorksAt: {\n    typeIds: [Id.Id('dac6e89e-76be-4f77-88e1-0f556ceb6869')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    endTime: Id.Id('c3445f6b-e2c0-4f25-b73a-5eb876c4f50c'),\n    startTime: Id.Id('2d696bf0-510f-403e-985b-8cd1e73feb9b')\n    },\n    relations: {\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b')\n    },\n  }"
+    "mapping": "WorksAt: {\n  typeIds: [Id.Id('dac6e89e-76be-4f77-88e1-0f556ceb6869')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    endTime: Id.Id('c3445f6b-e2c0-4f25-b73a-5eb876c4f50c'),\n    startTime: Id.Id('2d696bf0-510f-403e-985b-8cd1e73feb9b')\n  },\n  relations: {\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b')\n  },\n}"
   },
   {
     "id": "e4e366e9-d555-4b68-92bf-7358e824afd2",
@@ -4009,7 +4009,7 @@
       }
     ],
     "schema": "export class Role extends Entity.Class<Role>('Role')({\n  name: Type.Text,\n  description: Type.Text,\n  skills: Type.Relation(Skill),\n  relatedSpaces: Type.Relation(Space),\n  relatedTopics: Type.Relation(Topic),\n  tags: Type.Relation(Tag)\n}) {}",
-    "mapping": "  Role: {\n    typeIds: [Id.Id('e4e366e9-d555-4b68-92bf-7358e824afd2')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    skills: Id.Id('a38732e3-3a3d-47f9-a459-fb369c287709'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n    },\n  }"
+    "mapping": "Role: {\n  typeIds: [Id.Id('e4e366e9-d555-4b68-92bf-7358e824afd2')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    skills: Id.Id('a38732e3-3a3d-47f9-a459-fb369c287709'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n  },\n}"
   },
   {
     "id": "c7a192a3-3909-4572-a848-a56b64dc4636",
@@ -4036,7 +4036,7 @@
       }
     ],
     "schema": "export class Nonprofit extends Entity.Class<Nonprofit>('Nonprofit')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Nonprofit: {\n    typeIds: [Id.Id('c7a192a3-3909-4572-a848-a56b64dc4636')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Nonprofit: {\n  typeIds: [Id.Id('c7a192a3-3909-4572-a848-a56b64dc4636')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "a35e058b-52d1-48d2-b02d-773933d90b7e",
@@ -4063,7 +4063,7 @@
       }
     ],
     "schema": "export class NativeType extends Entity.Class<NativeType>('NativeType')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  NativeType: {\n    typeIds: [Id.Id('a35e058b-52d1-48d2-b02d-773933d90b7e')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "NativeType: {\n  typeIds: [Id.Id('a35e058b-52d1-48d2-b02d-773933d90b7e')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "7f237bdd-d95f-4d3f-8686-f52a5dd29386",
@@ -4245,7 +4245,7 @@
       }
     ],
     "schema": "export class Policy extends Entity.Class<Policy>('Policy')({\n  name: Type.Text,\n  description: Type.Text,\n  tags: Type.Relation(Tag),\n  relatedTopics: Type.Relation(Topic)\n}) {}",
-    "mapping": "  Policy: {\n    typeIds: [Id.Id('7f237bdd-d95f-4d3f-8686-f52a5dd29386')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351')\n    },\n  }"
+    "mapping": "Policy: {\n  typeIds: [Id.Id('7f237bdd-d95f-4d3f-8686-f52a5dd29386')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351')\n  },\n}"
   },
   {
     "id": "e0fcc66c-9e86-43f4-8080-2469d8a1a93a",
@@ -4418,7 +4418,7 @@
       }
     ],
     "schema": "export class Tag extends Entity.Class<Tag>('Tag')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedTopics: Type.Relation(Topic),\n  tags: Type.Relation(Tag)\n}) {}",
-    "mapping": "  Tag: {\n    typeIds: [Id.Id('e0fcc66c-9e86-43f4-8080-2469d8a1a93a')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n    },\n  }"
+    "mapping": "Tag: {\n  typeIds: [Id.Id('e0fcc66c-9e86-43f4-8080-2469d8a1a93a')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n  },\n}"
   },
   {
     "id": "9edb6fcc-e454-4aa5-8611-39d7f024c010",
@@ -4445,7 +4445,7 @@
       }
     ],
     "schema": "export class Text extends Entity.Class<Text>('Text')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Text: {\n    typeIds: [Id.Id('9edb6fcc-e454-4aa5-8611-39d7f024c010')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Text: {\n  typeIds: [Id.Id('9edb6fcc-e454-4aa5-8611-39d7f024c010')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "480e3fc2-67f3-4993-85fb-acdf4ddeaa6b",
@@ -4472,7 +4472,7 @@
       }
     ],
     "schema": "export class Page extends Entity.Class<Page>('Page')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Page: {\n    typeIds: [Id.Id('480e3fc2-67f3-4993-85fb-acdf4ddeaa6b')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Page: {\n  typeIds: [Id.Id('480e3fc2-67f3-4993-85fb-acdf4ddeaa6b')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "230f76cc-abb7-460c-9b56-eab43ec10172",
@@ -4499,7 +4499,7 @@
       }
     ],
     "schema": "export class Status extends Entity.Class<Status>('Status')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Status: {\n    typeIds: [Id.Id('230f76cc-abb7-460c-9b56-eab43ec10172')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Status: {\n  typeIds: [Id.Id('230f76cc-abb7-460c-9b56-eab43ec10172')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "fb1551b2-1816-46eb-8919-c73253c32022",
@@ -4526,7 +4526,7 @@
       }
     ],
     "schema": "export class Value extends Entity.Class<Value>('Value')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Value: {\n    typeIds: [Id.Id('fb1551b2-1816-46eb-8919-c73253c32022')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Value: {\n  typeIds: [Id.Id('fb1551b2-1816-46eb-8919-c73253c32022')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "0f526048-26cf-40d6-8bab-967e5fb1a08a",
@@ -4553,7 +4553,7 @@
       }
     ],
     "schema": "export class Principle extends Entity.Class<Principle>('Principle')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Principle: {\n    typeIds: [Id.Id('0f526048-26cf-40d6-8bab-967e5fb1a08a')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Principle: {\n  typeIds: [Id.Id('0f526048-26cf-40d6-8bab-967e5fb1a08a')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "bb9a85bd-6dc6-4efd-8232-e2782cb4b5f8",
@@ -4966,7 +4966,7 @@
       }
     ],
     "schema": "export class NewsEvent extends Entity.Class<NewsEvent>('NewsEvent')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedProjects: Type.Relation(Project),\n  tags: Type.Relation(Tag),\n  date: Type.Date,\n  relatedPeople: Type.Relation(Person),\n  location: Type.Text,\n  relatedTopics: Type.Relation(Topic),\n  relatedSpaces: Type.Relation(Space)\n}) {}",
-    "mapping": "  NewsEvent: {\n    typeIds: [Id.Id('bb9a85bd-6dc6-4efd-8232-e2782cb4b5f8')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    date: Id.Id('52665f3e-fb7d-48d5-8b6b-abb21b0d36db'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0')\n    },\n    relations: {\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n    },\n  }"
+    "mapping": "NewsEvent: {\n  typeIds: [Id.Id('bb9a85bd-6dc6-4efd-8232-e2782cb4b5f8')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    date: Id.Id('52665f3e-fb7d-48d5-8b6b-abb21b0d36db'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0')\n  },\n  relations: {\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n  },\n}"
   },
   {
     "id": "1baae8e9-1870-41fb-8e2a-1eb1f84ba0d4",
@@ -4993,7 +4993,7 @@
       }
     ],
     "schema": "export class Lesson extends Entity.Class<Lesson>('Lesson')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Lesson: {\n    typeIds: [Id.Id('1baae8e9-1870-41fb-8e2a-1eb1f84ba0d4')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Lesson: {\n  typeIds: [Id.Id('1baae8e9-1870-41fb-8e2a-1eb1f84ba0d4')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "f3d44614-86b7-4d25-83d8-9709c9d84f65",
@@ -5549,7 +5549,7 @@
       }
     ],
     "schema": "export class Post extends Entity.Class<Post>('Post')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedSpaces: Type.Relation(Space),\n  relatedTopics: Type.Relation(Topic),\n  publishDate: Type.Date,\n  tags: Type.Relation(Tag),\n  webUrl: Type.Text,\n  relatedPeople: Type.Relation(Person),\n  authors: Type.Relation(Project),\n  relatedProjects: Type.Relation(Project)\n}) {}",
-    "mapping": "  Post: {\n    typeIds: [Id.Id('f3d44614-86b7-4d25-83d8-9709c9d84f65')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    publishDate: Id.Id('94e43fe8-faf2-4100-9eb8-87ab4f999723'),\n    webUrl: Id.Id('412ff593-e915-4012-a43d-4c27ec5c68b6')\n    },\n    relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    authors: Id.Id('91a9e2f6-e51a-48f7-9976-61de8561b690'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427')\n    },\n  }"
+    "mapping": "Post: {\n  typeIds: [Id.Id('f3d44614-86b7-4d25-83d8-9709c9d84f65')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    publishDate: Id.Id('94e43fe8-faf2-4100-9eb8-87ab4f999723'),\n    webUrl: Id.Id('412ff593-e915-4012-a43d-4c27ec5c68b6')\n  },\n  relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    authors: Id.Id('91a9e2f6-e51a-48f7-9976-61de8561b690'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427')\n  },\n}"
   },
   {
     "id": "c188844a-7224-42ab-b476-2991c9c913f1",
@@ -5634,7 +5634,7 @@
       }
     ],
     "schema": "export class Region extends Entity.Class<Region>('Region')({\n  name: Type.Text,\n  description: Type.Text,\n  tags: Type.Relation(Tag)\n}) {}",
-    "mapping": "  Region: {\n    typeIds: [Id.Id('c188844a-7224-42ab-b476-2991c9c913f1')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n    },\n  }"
+    "mapping": "Region: {\n  typeIds: [Id.Id('c188844a-7224-42ab-b476-2991c9c913f1')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n  },\n}"
   },
   {
     "id": "7aa4792e-eacd-4186-8272-fa7fc18298ac",
@@ -5661,7 +5661,7 @@
       }
     ],
     "schema": "export class Checkbox extends Entity.Class<Checkbox>('Checkbox')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Checkbox: {\n    typeIds: [Id.Id('7aa4792e-eacd-4186-8272-fa7fc18298ac')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Checkbox: {\n  typeIds: [Id.Id('7aa4792e-eacd-4186-8272-fa7fc18298ac')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "ae724b56-8725-4a09-8d7e-a542bc587ebd",
@@ -6039,7 +6039,7 @@
       }
     ],
     "schema": "export class Course extends Entity.Class<Course>('Course')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedSpaces: Type.Relation(Space),\n  skills: Type.Relation(Skill),\n  roles: Type.Relation(Role),\n  lessons: Type.Relation(Lesson),\n  goals: Type.Relation(Goal),\n  tags: Type.Relation(Tag)\n}) {}",
-    "mapping": "  Course: {\n    typeIds: [Id.Id('ae724b56-8725-4a09-8d7e-a542bc587ebd')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    skills: Id.Id('a38732e3-3a3d-47f9-a459-fb369c287709'),\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b'),\n    lessons: Id.Id('1e4e6986-aea4-481e-ba29-ab0677b6d514'),\n    goals: Id.Id('2b167901-66f8-40b6-b60e-de0ce01fe4ba'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n    },\n  }"
+    "mapping": "Course: {\n  typeIds: [Id.Id('ae724b56-8725-4a09-8d7e-a542bc587ebd')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    skills: Id.Id('a38732e3-3a3d-47f9-a459-fb369c287709'),\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b'),\n    lessons: Id.Id('1e4e6986-aea4-481e-ba29-ab0677b6d514'),\n    goals: Id.Id('2b167901-66f8-40b6-b60e-de0ce01fe4ba'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n  },\n}"
   },
   {
     "id": "caf1d890-855b-452b-97e2-5769daadeb1b",
@@ -6066,7 +6066,7 @@
       }
     ],
     "schema": "export class Fulltime extends Entity.Class<Fulltime>('Fulltime')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Fulltime: {\n    typeIds: [Id.Id('caf1d890-855b-452b-97e2-5769daadeb1b')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Fulltime: {\n  typeIds: [Id.Id('caf1d890-855b-452b-97e2-5769daadeb1b')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "e7d737c5-3676-4c60-9fa1-6aa64a8c90ad",
@@ -6297,7 +6297,7 @@
       }
     ],
     "schema": "export class Type extends Entity.Class<Type>('Type')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedTopics: Type.Relation(Topic),\n  tags: Type.Relation(Tag),\n  properties: Type.Relation(Property)\n}) {}",
-    "mapping": "  Type: {\n    typeIds: [Id.Id('e7d737c5-3676-4c60-9fa1-6aa64a8c90ad')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    properties: Id.Id('01412f83-8189-4ab1-8365-65c7fd358cc1')\n    },\n  }"
+    "mapping": "Type: {\n  typeIds: [Id.Id('e7d737c5-3676-4c60-9fa1-6aa64a8c90ad')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    properties: Id.Id('01412f83-8189-4ab1-8365-65c7fd358cc1')\n  },\n}"
   },
   {
     "id": "1845ee99-80c6-48a3-abc3-809de1753c63",
@@ -6674,7 +6674,7 @@
       }
     ],
     "schema": "export class Goal extends Entity.Class<Goal>('Goal')({\n  name: Type.Text,\n  description: Type.Text,\n  subgoals: Type.Relation(Goal),\n  broaderGoals: Type.Relation(Goal),\n  relatedTopics: Type.Relation(Topic),\n  tags: Type.Relation(Tag),\n  relatedSpaces: Type.Relation(Space)\n}) {}",
-    "mapping": "  Goal: {\n    typeIds: [Id.Id('1845ee99-80c6-48a3-abc3-809de1753c63')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    subgoals: Id.Id('ef0edbba-6987-4057-b616-836483df2344'),\n    broaderGoals: Id.Id('7072d8d0-3136-4993-9ae5-dacae05e25f9'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n    },\n  }"
+    "mapping": "Goal: {\n  typeIds: [Id.Id('1845ee99-80c6-48a3-abc3-809de1753c63')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    subgoals: Id.Id('ef0edbba-6987-4057-b616-836483df2344'),\n    broaderGoals: Id.Id('7072d8d0-3136-4993-9ae5-dacae05e25f9'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n  },\n}"
   },
   {
     "id": "49c5d5e1-679a-4dbd-bfd3-3f618f227c94",
@@ -6759,7 +6759,7 @@
       }
     ],
     "schema": "export class Sources extends Entity.Class<Sources>('Sources')({\n  name: Type.Text,\n  description: Type.Text,\n  sourceDatabaseIdentifier: Type.Text,\n  propertiesSourced: Type.Relation(Property)\n}) {}",
-    "mapping": "  Sources: {\n    typeIds: [Id.Id('49c5d5e1-679a-4dbd-bfd3-3f618f227c94')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    sourceDatabaseIdentifier: Id.Id('5e92c8a4-1714-4ee7-9a09-389ef4336aeb')\n    },\n    relations: {\n    propertiesSourced: Id.Id('198150d0-8f4e-410a-9329-9aab3ac3c1e3')\n    },\n  }"
+    "mapping": "Sources: {\n  typeIds: [Id.Id('49c5d5e1-679a-4dbd-bfd3-3f618f227c94')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    sourceDatabaseIdentifier: Id.Id('5e92c8a4-1714-4ee7-9a09-389ef4336aeb')\n  },\n  relations: {\n    propertiesSourced: Id.Id('198150d0-8f4e-410a-9329-9aab3ac3c1e3')\n  },\n}"
   },
   {
     "id": "9291e563-afbe-4709-8780-a52cbb0f4aa9",
@@ -6804,7 +6804,7 @@
       }
     ],
     "schema": "export class Currency extends Entity.Class<Currency>('Currency')({\n  name: Type.Text,\n  description: Type.Text,\n  symbol: Type.Text,\n  sign: Type.Text\n}) {}",
-    "mapping": "  Currency: {\n    typeIds: [Id.Id('9291e563-afbe-4709-8780-a52cbb0f4aa9')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    symbol: Id.Id('ace1e96c-9b83-47b4-bd33-1d302ec0a0f5'),\n    sign: Id.Id('d9ada086-52e3-4b66-8893-0ccf2f9fd9ea')\n    },\n\n  }"
+    "mapping": "Currency: {\n  typeIds: [Id.Id('9291e563-afbe-4709-8780-a52cbb0f4aa9')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    symbol: Id.Id('ace1e96c-9b83-47b4-bd33-1d302ec0a0f5'),\n    sign: Id.Id('d9ada086-52e3-4b66-8893-0ccf2f9fd9ea')\n  },\n\n}"
   },
   {
     "id": "9b597aae-c31c-46c8-8565-a370da0c2a65",
@@ -6831,7 +6831,7 @@
       }
     ],
     "schema": "export class Number extends Entity.Class<Number>('Number')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Number: {\n    typeIds: [Id.Id('9b597aae-c31c-46c8-8565-a370da0c2a65')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Number: {\n  typeIds: [Id.Id('9b597aae-c31c-46c8-8565-a370da0c2a65')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "5ef5a586-0f27-4d8e-8f6c-59ae5b3e89e2",
@@ -7226,7 +7226,7 @@
       }
     ],
     "schema": "export class Topic extends Entity.Class<Topic>('Topic')({\n  name: Type.Text,\n  description: Type.Text,\n  tags: Type.Relation(Tag),\n  relatedProjects: Type.Relation(Project),\n  relatedPeople: Type.Relation(Person),\n  relatedTopics: Type.Relation(Topic),\n  relatedSpaces: Type.Relation(Space)\n}) {}",
-    "mapping": "  Topic: {\n    typeIds: [Id.Id('5ef5a586-0f27-4d8e-8f6c-59ae5b3e89e2')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n    },\n  }"
+    "mapping": "Topic: {\n  typeIds: [Id.Id('5ef5a586-0f27-4d8e-8f6c-59ae5b3e89e2')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba')\n  },\n}"
   },
   {
     "id": "a2a5ed0c-acef-46b1-835d-e457956ce915",
@@ -7873,7 +7873,7 @@
       }
     ],
     "schema": "export class Coinbase,Near,OthersFormAllianceToDevelopOpenAiServices extends Entity.Class<Coinbase,Near,OthersFormAllianceToDevelopOpenAiServices>('Coinbase,Near,OthersFormAllianceToDevelopOpenAiServices')({\n  name: Type.Text,\n  description: Type.Text,\n  authors: Type.Relation(Project),\n  relatedPeople: Type.Relation(Person),\n  webArchiveUrl: Type.Text,\n  tags: Type.Relation(Tag),\n  relatedProjects: Type.Relation(Project),\n  relatedTopics: Type.Relation(Topic),\n  relatedSpaces: Type.Relation(Space),\n  webUrl: Type.Text,\n  publishDate: Type.Date,\n  publisher: Type.Relation(Project)\n}) {}",
-    "mapping": "  Coinbase,Near,OthersFormAllianceToDevelopOpenAiServices: {\n    typeIds: [Id.Id('a2a5ed0c-acef-46b1-835d-e457956ce915')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    webArchiveUrl: Id.Id('54aa3b25-c45d-4974-a937-6bb895aeaefe'),\n    webUrl: Id.Id('412ff593-e915-4012-a43d-4c27ec5c68b6'),\n    publishDate: Id.Id('94e43fe8-faf2-4100-9eb8-87ab4f999723')\n    },\n    relations: {\n    authors: Id.Id('91a9e2f6-e51a-48f7-9976-61de8561b690'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    publisher: Id.Id('9ec2b47e-4819-47c0-a99e-8ddb27a3ed8e')\n    },\n  }"
+    "mapping": "Coinbase,Near,OthersFormAllianceToDevelopOpenAiServices: {\n  typeIds: [Id.Id('a2a5ed0c-acef-46b1-835d-e457956ce915')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    webArchiveUrl: Id.Id('54aa3b25-c45d-4974-a937-6bb895aeaefe'),\n    webUrl: Id.Id('412ff593-e915-4012-a43d-4c27ec5c68b6'),\n    publishDate: Id.Id('94e43fe8-faf2-4100-9eb8-87ab4f999723')\n  },\n  relations: {\n    authors: Id.Id('91a9e2f6-e51a-48f7-9976-61de8561b690'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    publisher: Id.Id('9ec2b47e-4819-47c0-a99e-8ddb27a3ed8e')\n  },\n}"
   },
   {
     "id": "872cb6f6-926d-4bb3-9d63-ccede27232b8",
@@ -7900,7 +7900,7 @@
       }
     ],
     "schema": "export class Dao extends Entity.Class<Dao>('Dao')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Dao: {\n    typeIds: [Id.Id('872cb6f6-926d-4bb3-9d63-ccede27232b8')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Dao: {\n  typeIds: [Id.Id('872cb6f6-926d-4bb3-9d63-ccede27232b8')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "362c1dbd-dc64-44bb-a3c4-652f38a642d7",
@@ -7927,7 +7927,7 @@
       }
     ],
     "schema": "export class Space extends Entity.Class<Space>('Space')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Space: {\n    typeIds: [Id.Id('362c1dbd-dc64-44bb-a3c4-652f38a642d7')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Space: {\n  typeIds: [Id.Id('362c1dbd-dc64-44bb-a3c4-652f38a642d7')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "4318a1d2-c441-455c-b765-44049c45e6cf",
@@ -8118,7 +8118,7 @@
       }
     ],
     "schema": "export class Question extends Entity.Class<Question>('Question')({\n  name: Type.Text,\n  description: Type.Text,\n  tags: Type.Relation(Tag),\n  relatedTopics: Type.Relation(Topic)\n}) {}",
-    "mapping": "  Question: {\n    typeIds: [Id.Id('4318a1d2-c441-455c-b765-44049c45e6cf')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351')\n    },\n  }"
+    "mapping": "Question: {\n  typeIds: [Id.Id('4318a1d2-c441-455c-b765-44049c45e6cf')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351')\n  },\n}"
   },
   {
     "id": "76474f2f-0089-4e77-a041-0b39fb17d0bf",
@@ -8154,7 +8154,7 @@
       }
     ],
     "schema": "export class TextBlock extends Entity.Class<TextBlock>('TextBlock')({\n  name: Type.Text,\n  description: Type.Text,\n  markdownContent: Type.Text\n}) {}",
-    "mapping": "  TextBlock: {\n    typeIds: [Id.Id('76474f2f-0089-4e77-a041-0b39fb17d0bf')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    markdownContent: Id.Id('e3e363d1-dd29-4ccb-8e6f-f3b76d99bc33')\n    },\n\n  }"
+    "mapping": "TextBlock: {\n  typeIds: [Id.Id('76474f2f-0089-4e77-a041-0b39fb17d0bf')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    markdownContent: Id.Id('e3e363d1-dd29-4ccb-8e6f-f3b76d99bc33')\n  },\n\n}"
   },
   {
     "id": "5c6e72fb-8340-47c0-8281-8be159ecd495",
@@ -8308,7 +8308,7 @@
       }
     ],
     "schema": "export class Address extends Entity.Class<Address>('Address')({\n  name: Type.Text,\n  description: Type.Text,\n  city: Type.Relation(City),\n  addressLine2: Type.Text,\n  geoLocation: Type.Point,\n  addressLine1: Type.Text,\n  zipCode: Type.Text\n}) {}",
-    "mapping": "  Address: {\n    typeIds: [Id.Id('5c6e72fb-8340-47c0-8281-8be159ecd495')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    addressLine2: Id.Id('50371e54-a068-4bc7-886c-16bc7de15a3b'),\n    geoLocation: Id.Id('7cfc4990-e068-4b77-98aa-834137d02953'),\n    addressLine1: Id.Id('d378e881-3ed9-4a60-b552-43ce64dac439'),\n    zipCode: Id.Id('a5de82d0-80d4-45aa-a76b-76baf2864dcc')\n    },\n    relations: {\n    city: Id.Id('5648dbdc-c09d-4d27-a840-5c50d8355268')\n    },\n  }"
+    "mapping": "Address: {\n  typeIds: [Id.Id('5c6e72fb-8340-47c0-8281-8be159ecd495')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    addressLine2: Id.Id('50371e54-a068-4bc7-886c-16bc7de15a3b'),\n    geoLocation: Id.Id('7cfc4990-e068-4b77-98aa-834137d02953'),\n    addressLine1: Id.Id('d378e881-3ed9-4a60-b552-43ce64dac439'),\n    zipCode: Id.Id('a5de82d0-80d4-45aa-a76b-76baf2864dcc')\n  },\n  relations: {\n    city: Id.Id('5648dbdc-c09d-4d27-a840-5c50d8355268')\n  },\n}"
   },
   {
     "id": "484a18c5-030a-499c-b0f2-ef588ff16d50",
@@ -8444,7 +8444,7 @@
       }
     ],
     "schema": "export class Project extends Entity.Class<Project>('Project')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedSpaces: Type.Relation(Space),\n  x: Type.Text,\n  website: Type.Text,\n  tags: Type.Relation(Tag)\n}) {}",
-    "mapping": "  Project: {\n    typeIds: [Id.Id('484a18c5-030a-499c-b0f2-ef588ff16d50')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    x: Id.Id('0d625978-4b3c-4b57-a86f-de45c997c73c'),\n    website: Id.Id('eed38e74-e679-46bf-8a42-ea3e4f8fb5fb')\n    },\n    relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n    },\n  }"
+    "mapping": "Project: {\n  typeIds: [Id.Id('484a18c5-030a-499c-b0f2-ef588ff16d50')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    x: Id.Id('0d625978-4b3c-4b57-a86f-de45c997c73c'),\n    website: Id.Id('eed38e74-e679-46bf-8a42-ea3e4f8fb5fb')\n  },\n  relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n  },\n}"
   },
   {
     "id": "9959eb50-b029-4a15-8557-b39318cbb91b",
@@ -8471,7 +8471,7 @@
       }
     ],
     "schema": "export class AcademicField extends Entity.Class<AcademicField>('AcademicField')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  AcademicField: {\n    typeIds: [Id.Id('9959eb50-b029-4a15-8557-b39318cbb91b')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "AcademicField: {\n  typeIds: [Id.Id('9959eb50-b029-4a15-8557-b39318cbb91b')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "5ab7946f-82bc-4289-9d02-a5f13bd40935",
@@ -8589,7 +8589,7 @@
       }
     ],
     "schema": "export class Job extends Entity.Class<Job>('Job')({\n  name: Type.Text,\n  description: Type.Text,\n  roles: Type.Relation(Role)\n}) {}",
-    "mapping": "  Job: {\n    typeIds: [Id.Id('5ab7946f-82bc-4289-9d02-a5f13bd40935')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b')\n    },\n  }"
+    "mapping": "Job: {\n  typeIds: [Id.Id('5ab7946f-82bc-4289-9d02-a5f13bd40935')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b')\n  },\n}"
   },
   {
     "id": "e059a29e-6f6b-437b-bc15-c7983d078c0d",
@@ -8738,7 +8738,7 @@
       }
     ],
     "schema": "export class Company extends Entity.Class<Company>('Company')({\n  name: Type.Text,\n  description: Type.Text,\n  teams: Type.Relation(Team),\n  teamMembers: Type.Relation(Person)\n}) {}",
-    "mapping": "  Company: {\n    typeIds: [Id.Id('e059a29e-6f6b-437b-bc15-c7983d078c0d')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    teams: Id.Id('7f397325-170e-4e2a-8f9b-e7d3c8715ef6'),\n    teamMembers: Id.Id('a09625a4-b984-4876-8f0d-a28a65e47f85')\n    },\n  }"
+    "mapping": "Company: {\n  typeIds: [Id.Id('e059a29e-6f6b-437b-bc15-c7983d078c0d')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    teams: Id.Id('7f397325-170e-4e2a-8f9b-e7d3c8715ef6'),\n    teamMembers: Id.Id('a09625a4-b984-4876-8f0d-a28a65e47f85')\n  },\n}"
   },
   {
     "id": "e3817941-7409-4df1-b519-1f3f1a0721e8",
@@ -8774,7 +8774,7 @@
       }
     ],
     "schema": "export class ImageBlock extends Entity.Class<ImageBlock>('ImageBlock')({\n  name: Type.Text,\n  description: Type.Text,\n  imageUrl: Type.Text\n}) {}",
-    "mapping": "  ImageBlock: {\n    typeIds: [Id.Id('e3817941-7409-4df1-b519-1f3f1a0721e8')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    imageUrl: Id.Id('8a743832-c094-4a62-b665-0c3cc2f9c7bc')\n    },\n\n  }"
+    "mapping": "ImageBlock: {\n  typeIds: [Id.Id('e3817941-7409-4df1-b519-1f3f1a0721e8')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    imageUrl: Id.Id('8a743832-c094-4a62-b665-0c3cc2f9c7bc')\n  },\n\n}"
   },
   {
     "id": "d94df755-02ff-40c1-8169-ce0e65377ebe",
@@ -8801,7 +8801,7 @@
       }
     ],
     "schema": "export class Team extends Entity.Class<Team>('Team')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Team: {\n    typeIds: [Id.Id('d94df755-02ff-40c1-8169-ce0e65377ebe')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Team: {\n  typeIds: [Id.Id('d94df755-02ff-40c1-8169-ce0e65377ebe')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "fca08431-1aa1-40f2-8a4d-0743c2a59df7",
@@ -8828,7 +8828,7 @@
       }
     ],
     "schema": "export class Network extends Entity.Class<Network>('Network')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Network: {\n    typeIds: [Id.Id('fca08431-1aa1-40f2-8a4d-0743c2a59df7')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Network: {\n  typeIds: [Id.Id('fca08431-1aa1-40f2-8a4d-0743c2a59df7')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "ba4e4146-0010-499d-a0a3-caaa7f579d0e",
@@ -8864,7 +8864,7 @@
       }
     ],
     "schema": "export class Image extends Entity.Class<Image>('Image')({\n  name: Type.Text,\n  description: Type.Text,\n  imageUrl: Type.Text\n}) {}",
-    "mapping": "  Image: {\n    typeIds: [Id.Id('ba4e4146-0010-499d-a0a3-caaa7f579d0e')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    imageUrl: Id.Id('8a743832-c094-4a62-b665-0c3cc2f9c7bc')\n    },\n\n  }"
+    "mapping": "Image: {\n  typeIds: [Id.Id('ba4e4146-0010-499d-a0a3-caaa7f579d0e')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    imageUrl: Id.Id('8a743832-c094-4a62-b665-0c3cc2f9c7bc')\n  },\n\n}"
   },
   {
     "id": "c167ef23-fb2a-4044-9ed9-45123ce7d2a9",
@@ -8927,7 +8927,7 @@
       }
     ],
     "schema": "export class Relation extends Entity.Class<Relation>('Relation')({\n  name: Type.Text,\n  description: Type.Text,\n  index: Type.Text\n}) {}",
-    "mapping": "  Relation: {\n    typeIds: [Id.Id('c167ef23-fb2a-4044-9ed9-45123ce7d2a9')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    index: Id.Id('ede47e69-30b0-4499-8ea4-aafbda449609')\n    },\n\n  }"
+    "mapping": "Relation: {\n  typeIds: [Id.Id('c167ef23-fb2a-4044-9ed9-45123ce7d2a9')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    index: Id.Id('ede47e69-30b0-4499-8ea4-aafbda449609')\n  },\n\n}"
   },
   {
     "id": "043a171c-6918-4dc3-a7db-b8471ca6fcc2",
@@ -9432,7 +9432,7 @@
       }
     ],
     "schema": "export class Quote extends Entity.Class<Quote>('Quote')({\n  name: Type.Text,\n  description: Type.Text,\n  authors: Type.Relation(Project),\n  relatedTopics: Type.Relation(Topic),\n  relatedPeople: Type.Relation(Person),\n  relatedProjects: Type.Relation(Project),\n  tags: Type.Relation(Tag)\n}) {}",
-    "mapping": "  Quote: {\n    typeIds: [Id.Id('043a171c-6918-4dc3-a7db-b8471ca6fcc2')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    authors: Id.Id('91a9e2f6-e51a-48f7-9976-61de8561b690'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n    },\n  }"
+    "mapping": "Quote: {\n  typeIds: [Id.Id('043a171c-6918-4dc3-a7db-b8471ca6fcc2')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    authors: Id.Id('91a9e2f6-e51a-48f7-9976-61de8561b690'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    relatedPeople: Id.Id('5df8e432-9cc5-4f03-8f85-4ac82e157ada'),\n    relatedProjects: Id.Id('6e3503fa-b974-460e-a3db-ab8af9a41427'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n  },\n}"
   },
   {
     "id": "4d876b81-787e-41fc-ab5d-075d4da66a3f",
@@ -10488,7 +10488,7 @@
       }
     ],
     "schema": "export class Event extends Entity.Class<Event>('Event')({\n  name: Type.Text,\n  description: Type.Text,\n  sideEvents: Type.Relation(Event),\n  venue: Type.Relation(Place),\n  endTime: Type.Date,\n  countries: Type.Relation(Country),\n  speakers: Type.Relation(Person),\n  tags: Type.Relation(Tag),\n  startTime: Type.Date,\n  organizers: Type.Relation(Person),\n  cities: Type.Relation(City),\n  website: Type.Text,\n  relatedSpaces: Type.Relation(Space),\n  sponsors: Type.Relation(Project),\n  parentEvent: Type.Relation(Event),\n  location: Type.Text\n}) {}",
-    "mapping": "  Event: {\n    typeIds: [Id.Id('4d876b81-787e-41fc-ab5d-075d4da66a3f')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    endTime: Id.Id('c3445f6b-e2c0-4f25-b73a-5eb876c4f50c'),\n    startTime: Id.Id('2d696bf0-510f-403e-985b-8cd1e73feb9b'),\n    website: Id.Id('eed38e74-e679-46bf-8a42-ea3e4f8fb5fb'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0')\n    },\n    relations: {\n    sideEvents: Id.Id('da8723a3-fcab-4199-b7fd-aeb99fc7ba39'),\n    venue: Id.Id('f28bbb6b-f4e8-465d-9de7-a09085e224b9'),\n    countries: Id.Id('c4c88260-ea3a-4498-a2f9-be340a19758e'),\n    speakers: Id.Id('0d68798b-6bcc-4bbc-90e4-f76ecc1180a8'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    organizers: Id.Id('da616b5a-e6f1-4e62-9b11-de7e081a26fa'),\n    cities: Id.Id('2282fece-7494-40d6-bcdc-aad2355c40fb'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    sponsors: Id.Id('94b54a11-85e3-4c52-867a-ad5c45380ebe'),\n    parentEvent: Id.Id('b94c4d15-6aba-4441-abde-f40f173f33b8')\n    },\n  }"
+    "mapping": "Event: {\n  typeIds: [Id.Id('4d876b81-787e-41fc-ab5d-075d4da66a3f')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    endTime: Id.Id('c3445f6b-e2c0-4f25-b73a-5eb876c4f50c'),\n    startTime: Id.Id('2d696bf0-510f-403e-985b-8cd1e73feb9b'),\n    website: Id.Id('eed38e74-e679-46bf-8a42-ea3e4f8fb5fb'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0')\n  },\n  relations: {\n    sideEvents: Id.Id('da8723a3-fcab-4199-b7fd-aeb99fc7ba39'),\n    venue: Id.Id('f28bbb6b-f4e8-465d-9de7-a09085e224b9'),\n    countries: Id.Id('c4c88260-ea3a-4498-a2f9-be340a19758e'),\n    speakers: Id.Id('0d68798b-6bcc-4bbc-90e4-f76ecc1180a8'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    organizers: Id.Id('da616b5a-e6f1-4e62-9b11-de7e081a26fa'),\n    cities: Id.Id('2282fece-7494-40d6-bcdc-aad2355c40fb'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    sponsors: Id.Id('94b54a11-85e3-4c52-867a-ad5c45380ebe'),\n    parentEvent: Id.Id('b94c4d15-6aba-4441-abde-f40f173f33b8')\n  },\n}"
   },
   {
     "id": "01b05333-941a-4b00-bc78-fac5a15b467d",
@@ -10648,7 +10648,7 @@
       }
     ],
     "schema": "export class City extends Entity.Class<City>('City')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedTopics: Type.Relation(Topic)\n}) {}",
-    "mapping": "  City: {\n    typeIds: [Id.Id('01b05333-941a-4b00-bc78-fac5a15b467d')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351')\n    },\n  }"
+    "mapping": "City: {\n  typeIds: [Id.Id('01b05333-941a-4b00-bc78-fac5a15b467d')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351')\n  },\n}"
   },
   {
     "id": "fc512a40-8b55-44dc-85b8-5aae88b51fae",
@@ -10675,7 +10675,7 @@
       }
     ],
     "schema": "export class Industry extends Entity.Class<Industry>('Industry')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Industry: {\n    typeIds: [Id.Id('fc512a40-8b55-44dc-85b8-5aae88b51fae')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Industry: {\n  typeIds: [Id.Id('fc512a40-8b55-44dc-85b8-5aae88b51fae')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "c70397ac-4607-4d3a-9433-19cbc75197ad",
@@ -11010,7 +11010,7 @@
       }
     ],
     "schema": "export class JobOpening extends Entity.Class<JobOpening>('JobOpening')({\n  name: Type.Text,\n  description: Type.Text,\n  equityMin: Type.Number,\n  equityMax: Type.Number,\n  webUrl: Type.Text,\n  roles: Type.Relation(Role),\n  team: Type.Relation(Team),\n  relatedSpaces: Type.Relation(Space),\n  salaryMax: Type.Number,\n  employmentType: Type.Relation(EmploymentType),\n  salaryMin: Type.Number,\n  location: Type.Text,\n  skills: Type.Relation(Skill)\n}) {}",
-    "mapping": "  JobOpening: {\n    typeIds: [Id.Id('c70397ac-4607-4d3a-9433-19cbc75197ad')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    equityMin: Id.Id('723821c6-11fd-45d1-9d91-2723b0e508b5'),\n    equityMax: Id.Id('1ab8005a-edea-411d-a191-9b20b7e48a78'),\n    webUrl: Id.Id('412ff593-e915-4012-a43d-4c27ec5c68b6'),\n    salaryMax: Id.Id('78ec09b9-f56f-4898-8db8-6c7f153774f3'),\n    salaryMin: Id.Id('64695ccd-c5ea-4185-87f8-7e335dc1b66b'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0')\n    },\n    relations: {\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b'),\n    team: Id.Id('aac06dc0-2eb2-471b-bd0b-6adbaf5c478b'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    employmentType: Id.Id('53a98633-a2db-40be-9f16-1a4c9da37970'),\n    skills: Id.Id('a38732e3-3a3d-47f9-a459-fb369c287709')\n    },\n  }"
+    "mapping": "JobOpening: {\n  typeIds: [Id.Id('c70397ac-4607-4d3a-9433-19cbc75197ad')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037'),\n    equityMin: Id.Id('723821c6-11fd-45d1-9d91-2723b0e508b5'),\n    equityMax: Id.Id('1ab8005a-edea-411d-a191-9b20b7e48a78'),\n    webUrl: Id.Id('412ff593-e915-4012-a43d-4c27ec5c68b6'),\n    salaryMax: Id.Id('78ec09b9-f56f-4898-8db8-6c7f153774f3'),\n    salaryMin: Id.Id('64695ccd-c5ea-4185-87f8-7e335dc1b66b'),\n    location: Id.Id('95d77002-1faf-4f7c-b7de-b21a7d48cda0')\n  },\n  relations: {\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b'),\n    team: Id.Id('aac06dc0-2eb2-471b-bd0b-6adbaf5c478b'),\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    employmentType: Id.Id('53a98633-a2db-40be-9f16-1a4c9da37970'),\n    skills: Id.Id('a38732e3-3a3d-47f9-a459-fb369c287709')\n  },\n}"
   },
   {
     "id": "df250d17-e364-413d-9779-2ddaae841e34",
@@ -11037,7 +11037,7 @@
       }
     ],
     "schema": "export class Point extends Entity.Class<Point>('Point')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "  Point: {\n    typeIds: [Id.Id('df250d17-e364-413d-9779-2ddaae841e34')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n\n  }"
+    "mapping": "Point: {\n  typeIds: [Id.Id('df250d17-e364-413d-9779-2ddaae841e34')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
   },
   {
     "id": "3317d044-a700-4a9d-bbaf-4c16ade42f76",
@@ -11292,6 +11292,6 @@
       }
     ],
     "schema": "export class Continent extends Entity.Class<Continent>('Continent')({\n  name: Type.Text,\n  description: Type.Text,\n  relatedTopics: Type.Relation(Topic),\n  tags: Type.Relation(Tag),\n  countries: Type.Relation(Country)\n}) {}",
-    "mapping": "  Continent: {\n    typeIds: [Id.Id('3317d044-a700-4a9d-bbaf-4c16ade42f76')],\n    properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n    },\n    relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    countries: Id.Id('c4c88260-ea3a-4498-a2f9-be340a19758e')\n    },\n  }"
+    "mapping": "Continent: {\n  typeIds: [Id.Id('3317d044-a700-4a9d-bbaf-4c16ade42f76')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba'),\n    countries: Id.Id('c4c88260-ea3a-4498-a2f9-be340a19758e')\n  },\n}"
   }
 ]

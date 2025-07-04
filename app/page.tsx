@@ -74,28 +74,30 @@ export default function SchemaViewer() {
               </div>
             </CardHeader>
 
-            <CardContent className="space-y-6">
-              {/* Schema */}
-              <div>
-                <h4 className="font-semibold mb-2 text-sm text-muted-foreground">
-                  Schema
-                </h4>
-                <div className="bg-muted rounded-md p-3 overflow-x-auto">
-                  <pre className="text-sm font-mono whitespace-pre-wrap break-all">
-                    {entry.schema}
-                  </pre>
+            <CardContent>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                {/* Schema */}
+                <div>
+                  <h4 className="font-semibold mb-2 text-sm text-muted-foreground">
+                    Schema
+                  </h4>
+                  <div className="bg-muted rounded-md p-3 overflow-x-auto">
+                    <pre className="text-sm font-mono whitespace-pre-wrap break-all">
+                      {entry.schema}
+                    </pre>
+                  </div>
                 </div>
-              </div>
 
-              {/* Mapping */}
-              <div>
-                <h4 className="font-semibold mb-2 text-sm text-muted-foreground">
-                  Mapping
-                </h4>
-                <div className="bg-muted rounded-md p-3 overflow-x-auto">
-                  <pre className="text-sm font-mono whitespace-pre-wrap break-all">
-                    {entry.mapping}
-                  </pre>
+                {/* Mapping */}
+                <div>
+                  <h4 className="font-semibold mb-2 text-sm text-muted-foreground">
+                    Mapping
+                  </h4>
+                  <div className="bg-muted rounded-md p-3 overflow-x-auto">
+                    <pre className="text-sm font-mono whitespace-pre-wrap break-all">
+                      {entry.mapping}
+                    </pre>
+                  </div>
                 </div>
               </div>
             </CardContent>
