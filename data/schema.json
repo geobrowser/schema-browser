@@ -602,33 +602,6 @@
     "mapping": "Skill: {\n  typeIds: [Id.Id('9ca6ab1f-3a11-4e49-bbaf-72e0c9a985cf')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n  relations: {\n    relatedSpaces: Id.Id('5b722cd3-61d6-494e-8887-1310566437ba'),\n    relatedTopics: Id.Id('806d52bc-27e9-4c91-93c0-57978b093351'),\n    roles: Id.Id('8fcfe5ef-3d91-47bd-8322-3830a998d26b'),\n    tags: Id.Id('25709034-1ba5-406f-94e4-d4af90042fba')\n  },\n}"
   },
   {
-    "id": "37d2167f-b64a-4b68-be26-55b3608050e7",
-    "name": "Academic field",
-    "className": "AcademicField",
-    "properties": [
-      {
-        "id": "a126ca53-0c8e-48d5-b888-82c734c38935",
-        "dataType": "TEXT",
-        "relationValueTypes": [],
-        "entity": {
-          "id": "a126ca53-0c8e-48d5-b888-82c734c38935",
-          "name": "Name"
-        }
-      },
-      {
-        "id": "9b1f76ff-9711-404c-861e-59dc3fa7d037",
-        "dataType": "TEXT",
-        "relationValueTypes": [],
-        "entity": {
-          "id": "9b1f76ff-9711-404c-861e-59dc3fa7d037",
-          "name": "Description"
-        }
-      }
-    ],
-    "schema": "export class AcademicField extends Entity.Class<AcademicField>('AcademicField')({\n  name: Type.Text,\n  description: Type.Text\n}) {}",
-    "mapping": "AcademicField: {\n  typeIds: [Id.Id('37d2167f-b64a-4b68-be26-55b3608050e7')],\n  properties: {\n    name: Id.Id('a126ca53-0c8e-48d5-b888-82c734c38935'),\n    description: Id.Id('9b1f76ff-9711-404c-861e-59dc3fa7d037')\n  },\n\n}"
-  },
-  {
     "id": "7ed45f2b-c48b-419e-8e46-64d5ff680b0d",
     "name": "Person",
     "className": "Person",
