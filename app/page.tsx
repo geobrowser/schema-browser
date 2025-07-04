@@ -1,15 +1,9 @@
 "use client";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import schemaData from "@/data/schema.json";
-import { Badge, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import { useMemo, useState } from "react";
 
 interface SchemaEntry {
@@ -56,18 +50,12 @@ export default function SchemaViewer() {
         <div className="relative max-w-md">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
           <Input
-            placeholder="Search by name or class name..."
+            placeholder="Search by name…"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             className="pl-10"
           />
         </div>
-      </div>
-
-      <div className="mb-4">
-        <Badge variant="secondary">
-          {filteredEntries.length} of {schemaData.length} entries
-        </Badge>
       </div>
 
       <div className="grid gap-6">
@@ -76,43 +64,17 @@ export default function SchemaViewer() {
             <CardHeader>
               <div className="flex items-start justify-between">
                 <div>
-                  <CardTitle className="text-xl">{entry.name}</CardTitle>
-                  <CardDescription className="mt-1">
-                    <span className="font-mono text-sm bg-muted px-2 py-1 rounded">
-                      {entry.className}
+                  <CardTitle className="text-xl flex items-baseline gap-4">
+                    {entry.name}{" "}
+                    <span className="text-muted-foreground text-sm">
+                      Id: {entry.id}
                     </span>
-                  </CardDescription>
+                  </CardTitle>
                 </div>
-                <Badge variant="outline" className="font-mono text-xs">
-                  {entry.id}
-                </Badge>
               </div>
             </CardHeader>
 
             <CardContent className="space-y-6">
-              {/* Properties Summary */}
-              <div>
-                <h4 className="font-semibold mb-2 text-sm text-muted-foreground">
-                  Properties ({entry.properties.length})
-                </h4>
-                <div className="flex flex-wrap gap-1">
-                  {entry.properties.slice(0, 10).map((prop) => (
-                    <Badge
-                      key={prop.id}
-                      variant="secondary"
-                      className="text-xs"
-                    >
-                      {prop.entity.name}
-                    </Badge>
-                  ))}
-                  {entry.properties.length > 10 && (
-                    <Badge variant="outline" className="text-xs">
-                      +{entry.properties.length - 10} more
-                    </Badge>
-                  )}
-                </div>
-              </div>
-
               {/* Schema */}
               <div>
                 <h4 className="font-semibold mb-2 text-sm text-muted-foreground">
